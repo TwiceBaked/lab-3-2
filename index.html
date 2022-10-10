@@ -6,36 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body {background-color: rgb(112, 157, 189);}
+        body {background-image: url("herringbone-V02.png");}
         h1 {text-align: center; color:black; font-family:Fantasy; font-weight:900;}
         h2 {text-align: center;}
         h3 {text-align: center;}
+        h4 {text-align: center; font-family:Fantasy; font-weight:900;}
+        div.ex1 {max-width: 700px; margin: auto;}
         img 
-        {
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-        }
+            {
+            border: 7px solid transparent;    
+            border-image: url("herringbone.png") 20 repeat;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            }
+        a:link, a:visited 
+            {
+            background-color: #f44336;
+            color: white;
+            padding: 6px 12px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            }
+
+        a:hover, a:active 
+            {
+            background-color: red;
+            }
     </style>
 </head>
     <body>
+        <div class="ex1">
         <h1>
             The Gabe Carlson Experience
         </h1>
         <img src="Me.jpg" alt="headshot" width="512" height="288">
-        <h2>
+        <h4>
             Contact me thorugh email here:
             <a 
             href="mailto:gabrieljcarlson@lewisu.edu">gabrieljcarlson@lewisu.edu
             </a>
-        </h2>
-        <h2>
+        </h4>
+        <h4>
             Contact me through Discord here: 
-            <a style=color:orange> 
+            <a style=color:aliceblue> 
                 TwiceBaked#6902
             </a>
-        </h2>
-        <h2>
+        </h4>
+        <h1>
             Introduction
             <h3>
                 My name is Gabe Carlson. I am the youngest of 5 and self proclaimed favorite. 
@@ -43,8 +62,8 @@
                 My siblings and I grew up riding horses, raising chickens, growing gardens, and fishing in our back yard.
                 I am a Computer Science major that has no idea what kind of concentration to go into.
             </h3>
-        </h2>
-        <h2>
+        </h1>
+        <h1>
             What I Hope to Learn
             <h3>
                 <ul style="list-style-type:square;">
@@ -54,8 +73,8 @@
                     <li>Experience with working in group coding projects</li>
                 </ul> 
             </h3>
-        </h2>
-        <h2>
+        </h1>
+        <h1>
             My Favorite Hobby
             <h3>
                 Downhill skiing is my all time favorite hobby. 
@@ -64,14 +83,14 @@
                 For the past couple of years, I have been able to travel out west and ski the Rockies.
                 This has made winter my favorite season, and it isn't even close.
             </h3>
-        </h2>
-        <h2>
+        </h1>
+        <h1>
             My Fun Fact
             <h3>
                 I was homeschooled all the way up til the age of 16 when I started attending community college.
             </h3>
-        </h2>
-        <h2>
+        </h1>
+        <h1>
             Greatest Innovations
             <h3>
                 <ul style="list-style-type:square;">
@@ -80,7 +99,7 @@
                     <li><a href="https://www.engineergirl.org/205/First-Program"> The First Computer Program</a></li>
                 </ul>
             </h3>
-        </h2>
-
+        </h1>
+        </div>
     </body>
 </html>
